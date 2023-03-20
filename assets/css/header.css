@@ -1,0 +1,172 @@
+header {
+	height: 800px;
+	background: url(../img/carousel_bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+/*Fixed Layout for Nav*/
+
+.fixed-layout{
+	position: fixed;
+	height:150px ;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #404C56;
+	z-index: 12;
+	opacity: 0.92;
+
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+/*LOGO*/
+
+header h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Segoe UI Regular';
+	font-weight: bolder;
+	font-size: 30px;
+	font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+header h1 > span {
+	color: #40BFFF;
+	text-transform: uppercase;
+}
+
+/*NAV*/
+
+header nav > ul {
+	height: 100%;
+}
+
+header nav > ul > li {
+	display: flex;
+	align-items: center;
+	float: left;
+	height: 100%;
+	margin: 0px 15px;
+/*	padding: 15px;*/
+	color: #fff;
+}
+
+header nav > ul > li.active > span {
+	border: 3px solid #40BFFF;
+    padding: 6px 17px;
+
+}
+
+header nav > ul > li.active > span > span {
+	color: #40BFFF ;
+/*	border:1px solid # #40BFFF;*/
+	font-family: 'Segoe UI Regular';
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+header nav > ul > li > a,
+header nav > ul > li > a > span {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Segoe UI Regular' ;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: 0.3s;
+}
+
+
+header nav > ul > li > a:hover {
+	color: #40BFFF ;
+	text-decoration: none;
+	border: 3px solid #40BFFF;
+    padding: 6px 10px 6px 10px;
+
+}
+header nav > ul > li > a > span:hover {
+	color: #40BFFF;
+	font-size: 15px;
+}
+
+/*TEXT UNDER NAV*/
+
+header .h_text {
+    text-align: center;
+    font-size: 42px;
+    padding-top: 400px;
+    text-transform: uppercase;
+    font-family:  'segoe_uilight';
+    font-weight: 200;
+    color: #fff;
+}
+
+header .h_text > h2 {
+
+  margin: auto;
+  background-color: #000000;
+  max-width: 1000px;
+  opacity: 0.8;
+}
+header .h_text > h2[text1]{
+	max-width: 720px;
+	margin-bottom: 12px;
+}
+
+/*Responsive*/
+
+
+@media only screen and (max-width: 916px){
+	header {
+		height: 400px;
+	}
+
+	.fixed-layout {
+		position: static;
+		height: 80px;
+	}
+	.menu {
+		padding-top: 0px;
+	}
+	header .h_text {
+		font-size: 28px;
+		padding-top: 100px;
+}
+
+
+@media only screen and ( max-width: 730px){
+	header {
+		height: 900px;
+	}
+	.fixed-layout {
+		position: static;
+		height: 400px;
+	}
+	.menu{
+		display: block;
+		padding-top: 0;
+	}
+	header .h_text {
+		font-size: 22px;
+		padding-top: 200px;
+	}
+	header nav > ul {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	padding-bottom: 40px;
+	}
+}
+
+
+
+

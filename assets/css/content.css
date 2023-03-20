@@ -1,0 +1,323 @@
+/*SERVICES*/
+
+#section-1 {
+	background-color: #40BFFF;
+	width: 100%;
+}
+
+#section-1  h3 {
+	display: inline-block;
+    font-size: 30px;
+    font-family:  'segoe_uilight';
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#section-1  h3:after {
+	display: block;
+	content: '';
+	height: 2px;
+	width: 45px;
+	background-color: #fff ;
+}
+
+#section-1 .box > a > img {
+	padding-bottom: 20px;
+}
+
+#section-1 .box > h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Segoe UI Regular';
+	font-size: 24px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+#section-1 .box > p {
+	color: #fff;
+	padding-bottom: 70px;
+	font-family: 'segoe_uilight';
+	font-size: 14px;
+	line-height: 1.6;
+}
+/*JUST FEFAULT SECTION*/
+#section-1 .iframe {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	display: flex;
+  justify-content: flex-end;
+}
+
+#section-1 .box > .button_box {
+	display: block;
+	padding-bottom: 80px;
+}
+
+#section-1 .box > .button_box > a.button {
+	border: 2px solid black;
+    color: #000000;
+    padding: 12px 36px;
+    font-family: 'Segoe UI Regular';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: .3s;
+}
+
+#section-1 .box > .button_box > a.button:hover {
+	background-color: #536371;
+}
+
+/*TWITTER*/
+#section-1 .fa_icon {
+	padding-top: 70px;
+    float: right;
+}
+
+#section-1 .fa_icon > i {
+	color: #fff;
+	font-size: 24px;
+}
+
+/*ABOUT ME*/
+#section-1 .box-2 {
+	padding-top: 15px;
+}
+#section-1 .box-2 > p {
+	color: #fff;
+	padding-bottom: 30px;
+	padding-top: 140px;
+	font-family: 'segoe_uilight';
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+#section-1 .box-2 > div {
+	display: flex;
+	gap: 15px;
+	padding-bottom: 10px;
+}
+
+#section-1 .box-2 > div > .fa-frames{
+	display: inline-block;
+	padding: 12px;
+	border: 2px solid #fff;
+}
+
+#section-1 .box-2 > div > .fa-frames > a > i {
+	color: #fff;
+	font-size: 38px;
+}
+
+/*PORTFOLIO*/
+
+#section-2 .photo-section {
+	padding-bottom: 50px;
+}
+
+#section-2 h3 {
+	display: inline-block;
+ 	font-size: 30px;
+  font-family:  'segoe_uilight';
+  font-weight: 200;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#section-2 h3:after {
+	display: block;
+	content: '';
+	height: 2.5px;
+	width: 45px;
+	background-color: #000000 ;
+}
+
+#section-2 .portfolio_menu {
+	display: flex;
+  justify-content: space-between;
+}
+
+#section-2 .portfolio_menu > ul {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+#section-2 .portfolio_menu > ul > li.active > span {
+	border: 1px solid #40BFFF;
+    padding: 4px 20px;
+}
+
+#section-2 .portfolio_menu > ul > li.active > span,
+#section-2 .portfolio_menu > ul > li.active > span > span {
+	text-decoration: none;
+	color: #40BFFF;
+	font-family: 'Segoe UI Regular';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#section-2 .portfolio_menu > ul > li > a,
+#section-2 .portfolio_menu > ul > li > a > span {
+	text-decoration: none;
+	font-family: 'Segoe UI Regular';
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+
+#section-2 .portfolio_menu > ul > li > a:hover {
+	color: #40BFFF;
+	text-decoration: none;
+	border: 1px solid #40BFFF;
+  padding: 8px 17px 8px 17px;
+}
+
+#section-2 .portfolio_menu > ul > li > a > span:hover {
+	color: #40BFFF;
+	font-size: 15px;
+}
+
+#section-2 .photo-box {
+	position: relative;
+	height: 270px;
+  width: 270px;
+  margin-bottom: 25px;
+}
+/*Hover overlay fx*/
+#section-2 .photo-box > img {
+	display: block;
+	width: 100%;
+}
+
+#section-2 .photo-box >  .img_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 270px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+
+#section-2 .photo-box >  .img_overlay:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+#section-2 .photo-box > .img_overlay > .img_plus {
+	font-size: 30px;
+}
+/*TESTIMONIALS Fa-Icon & text*/
+#section-2 .fa_icon {
+	padding-top: 70px;
+    float: right;
+}
+
+#section-2 .fa_icon > i {
+	color: #000000;
+	font-size: 24px;
+}
+
+#section-2 .box > p {
+	color: #000000;
+	padding-bottom: 60px;
+	font-family: 'segoe_uilight';
+	font-size: 28px;
+}
+
+#section-2 .box > p > span {
+	color: #40BFFF;
+	font-family: 'Segoe UI Regular';
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width:991px){
+	#section-1 .iframe {
+		justify-content: center;
+	}
+	#section-1 .box > .button_box {
+		     padding-bottom: 0px;
+	}
+	#section-2 .portfolio_menu > ul{
+		gap: 25px;
+	}
+}
+
+@media only screen and ( max-width: 900px) {
+	#section-1 .box > p {
+		padding-bottom: 20px;
+	}
+	#section-1 .box-2 > p {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#section-1 .box {
+		display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+	}
+	#section-1 .box > p {
+		font-size: 16px;
+	}
+
+	#section-2 .photo-box {
+		margin: auto;
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and ( max-width: 730px) {
+	#section-2 .portfolio_menu {
+		flex-direction: column;
+		justify-content: normal;
+	}
+	#section-2 .portfolio_menu > ul {
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 580px) {
+	#section-2 .portfolio_menu {
+	display: block;
+/*	height: 350px;*/
+	}
+	#section-2 .portfolio_menu > ul {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+	}
+}
+
+
+
+
+
+
